@@ -14,7 +14,9 @@ after downloading or clone the repository, open CDM activate the virtual environ
 
 python application.py then you can go to localhost:5000 on the web browser
 
-the users are stored in an SQLite database, the test users are
+**the users are stored in an SQLite database, the test users are
 
 user: user1Chat pass: User1Chat
-user: user2Chat pass: User2Chat
+user: user2Chat pass: User2Chat**
+
+
