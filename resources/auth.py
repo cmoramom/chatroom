@@ -1,4 +1,4 @@
-from flask import (Blueprint, request, session, render_template, redirect, url_for, g, flash)
+from flask import (Blueprint, request, session, render_template, redirect, url_for, flash)
 
 from dao.user import User
 from forms.login import LoginForm
@@ -7,6 +7,7 @@ from utils import mylogger
 bp_auth = Blueprint('auth', __name__, url_prefix='/auth')
 
 
+# this create the login view and verify is the user is authorized to log in or not
 @bp_auth.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
