@@ -3,8 +3,8 @@ import os
 import sys
 
 LOGGER_NAME = 'my-logger'
-LOG_FOLDER = os.environ['APP_LOGGING_PATH']
-LOG_FILE = 'web-pc.log'
+LOG_FOLDER = './logs/'
+LOG_FILE = 'chatroom.log'
 LOG = LOG_FOLDER + LOG_FILE
 ROTATE_TIME = 'midnight'
 LOG_LEVEL = logging.DEBUG
