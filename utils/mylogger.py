@@ -1,5 +1,5 @@
 import logging.handlers
-import os
+
 import sys
 
 LOGGER_NAME = 'my-logger'

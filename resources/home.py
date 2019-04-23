@@ -1,4 +1,4 @@
-from flask import (Blueprint, render_template, session, redirect, url_for, g)
+from flask import (Blueprint, render_template, session, redirect, url_for)
 
 from utils.mylogger import logger
 
